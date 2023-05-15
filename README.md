@@ -19,7 +19,7 @@
 
 ```bash
 docker run --rm -it \
-  --entrypoint /bin/sh \
+  --entrypoint /bin/bash \
   --name "test-docker-cpp-boilerplate" \
   sinlov/docker-cpp-boilerplate:latest
 ```
