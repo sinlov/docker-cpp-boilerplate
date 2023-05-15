@@ -13,7 +13,7 @@ FROM debian:11.7
 RUN cp /etc/apt/sources.list /etc/apt/sources.list.old \
   && sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list \
   && apt-get update \
-  && apt install -y cmake g++ doxygen graphviz lcov \
+  && apt install -y git cmake g++ doxygen graphviz lcov \
   && apt-get autoclean \
   && apt-get clean \
   && apt-get autoremove \

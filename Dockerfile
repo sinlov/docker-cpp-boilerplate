@@ -10,7 +10,7 @@ FROM debian:11.7
 #USER root
 
 RUN apt-get update \
-  && apt install -y cmake g++ doxygen graphviz lcov \
+  && apt install -y git cmake g++ doxygen graphviz lcov \
   && apt-get autoclean \
   && apt-get clean \
   && apt-get autoremove \
