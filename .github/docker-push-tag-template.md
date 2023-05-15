@@ -11,6 +11,10 @@
 ```yml
 name: Docker Image build by tag on debian
 
+permissions:
+  contents: write
+  discussions: write
+
 on:
   push:
     tags:
@@ -65,6 +69,10 @@ jobs:
 
 ```yml
 name: Docker Image buildx by tag on debian
+
+permissions:
+  contents: write
+  discussions: write
 
 on:
   push:
