@@ -8,7 +8,7 @@ ROOT_NAME =docker-cpp-boilerplate
 
 # MakeImage.mk settings start
 ROOT_OWNER =sinlov
-ROOT_PARENT_SWITCH_TAG :=11.8
+ROOT_PARENT_SWITCH_TAG :=11.9
 # for image local build
 INFO_TEST_BUILD_DOCKER_PARENT_IMAGE =debian
 INFO_BUILD_DOCKER_FILE =Dockerfile
