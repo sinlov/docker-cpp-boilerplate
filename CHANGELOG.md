@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [convention-change-log](https://github.com/convention-change/convention-change-log) for commit guidelines.
 
+## [11.9.0](https://github.com/sinlov/docker-cpp-boilerplate/compare/11.8.0...v11.9.0) (2024-04-27)
+
+### Features
+
+* use debian version of 11.9 ([97219fba](https://github.com/sinlov/docker-cpp-boilerplate/commit/97219fba8d1d054769250e44c8cfde25bf8f7dd0)), feat [#3](https://github.com/sinlov/docker-cpp-boilerplate/issues/3)
+
+### Miscellaneous
+
+* Merge pull request #4 from sinlov/3-feature-debian-119-1 ([f0a6d5ac](https://github.com/sinlov/docker-cpp-boilerplate/commit/f0a6d5ac6a27c51ea32171c51f055c4737713631)), feat [#3](https://github.com/sinlov/docker-cpp-boilerplate/issues/3)
+
 ## [11.8.0](https://github.com/sinlov/docker-cpp-boilerplate/compare/11.7.2...v11.8.0) (2024-04-27)
 
 ### Features
