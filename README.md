@@ -1,5 +1,6 @@
 # docker-cpp-boilerplate
 
+[![ci](https://github.com/sinlov/docker-cpp-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/sinlov/docker-cpp-boilerplate/actions/workflows/ci.yml)
 
 [![GitHub license](https://img.shields.io/github/license/sinlov/docker-cpp-boilerplate)](https://github.com/sinlov/docker-cpp-boilerplate)
 [![GitHub latest SemVer tag)](https://img.shields.io/github/v/tag/sinlov/docker-cpp-boilerplate)](https://github.com/sinlov/docker-cpp-boilerplate/tags)
