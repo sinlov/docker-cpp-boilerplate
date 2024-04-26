@@ -24,10 +24,31 @@
 ### fast use
 
 ```bash
+# use as tty
 docker run --rm -it \
   --entrypoint /bin/bash \
   --name "test-docker-cpp-boilerplate" \
   sinlov/docker-cpp-boilerplate:latest
+
+# show version of this image tools
+docker run --rm \
+  --name "test-docker-cpp-boilerplate" \
+  sinlov/docker-cpp-boilerplate:latest \
+  bash -c '
+  cat /etc/os-release && \
+  uname -arsm && \
+  git --version && \
+  autoconf --version && \
+  make --version && \
+  cmake --version && \
+  echo "doxygen version" && \
+  doxygen --version && \
+  lcov --version && \
+  gcovr --version && \
+  gcc --version && \
+  g++ --version && \
+  echo "llvm version:" && \
+  llvm-config --version '
 ```
 
 ## source repo
@@ -36,7 +57,7 @@ docker run --rm -it \
 
 ## source usage
 
-- change version search `11.8` for change [debian OS version](https://www.debian.org/)
+- change version search `11.9` for change [debian OS version](https://www.debian.org/)
 
 ### dev mode
 
