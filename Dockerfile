@@ -5,7 +5,7 @@
 # maintainer="https://github.com/sinlov/docker-cpp-boilerplate"
 
 # https://hub.docker.com/_/debian/tags
-FROM debian:11.7
+FROM debian:11.8
 
 #USER root
 
